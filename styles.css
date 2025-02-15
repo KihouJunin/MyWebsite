@@ -1,0 +1,73 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+header {
+    background-color: azure;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman';
+    color: crimson;
+}
+
+p {
+    height: fit-content;
+}
+
+nav {
+    inline-size: block;
+    width: 80%;
+}
+
+nav img {
+    width: 10%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.grid link{
+    display: grid;
+    grid-template-columns: 40% 40% 40%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.grid img {
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skip-link {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    z-index: 100;
+}
+
+.skip-link:focus{
+    top: 10px;
+}
+
